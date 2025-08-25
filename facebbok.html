@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            list-style:none;
+        }
+        body{
+            background:#130f40 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 14px;
+        }
+        .child{
+            background: #95afc0;
+            padding: 2.3rem;
+            text-align: center;
+            max-width: 380px;
+            border-radius: 12px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(63, 41, 41, 0.1);
+        }
+        img{width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            transition: 0.5s;
+            
+        }
+        img:hover{
+            transform:scale(1.1);
+        }
+        h1{
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            animation: shihab 5s forwards;
+            
+        }
+
+     
+        .location{
+            color:#c4f82a;
+            font-size: 18px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .bio{
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        .link{
+            margin-top: 30px;
+        }
+       
+        .link ul li{
+            background:#2b2192;
+            color: #fff;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 12px;
+            padding: 7px 0;
+            text-transform: capitalize;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+            box-shadow: 4px 4px 6px #3b3ea413 , -4px -4px 6px #4c42d7;
+        }
+        .link ul li:hover{
+            background: #fafafa;
+            color: #130f40;
+             box-shadow: 4px 4px 6px #ffffff7c, -4px -4px 6px #ffffff3f;
+             font-size: 20px;
+             font-weight: bold;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <img src="shihab.jpg" alt="">
+            <h1>shihab hossain</h1>
+            <p class="location"> jhenidah sadar,jhenidah</p>
+            <p class="bio"> "Front-end developer and avid reader."</p>
+          <div class="link">
+            <ul>
+                <li>github</li>
+                <li>frontend mentor</li>
+                <li>linkden</li>
+                <li>twitter</li>
+                <li>instragram</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    
+</body>
+</html>
